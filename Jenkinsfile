@@ -19,6 +19,13 @@ pipeline {
             }
         }
 
+        stage('Test') {
+            steps {
+                // Run tests inside a temporary container
+                sh 'docker run --rm $IMAGE_NAME npm test'
+            }
+        }
+
         stage('Stop Old Container') {
             steps {
                 sh '''
