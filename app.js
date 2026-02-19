@@ -1,7 +1,7 @@
 const http = require('http');
 
 const server = http.createServer((req, res) => {
-  res.end("Version 4 has been released!");
+  res.end("Version 4.2 has been released!");
 });
 
 server.listen(3000);
