@@ -10,7 +10,7 @@ function fibonacci(n) {
 }
 
 // Simple test
-assert.strictEqual(add(2, 3), 5, "2 + 3 should be 5");
+assert.strictEqual(add(4, 3), 7, "4 + 3 should be 7");
 assert.strictEqual(
   fibonacci(50),
   12586269025,
