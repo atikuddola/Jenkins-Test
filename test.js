@@ -12,9 +12,9 @@ function fibonacci(n) {
 // Simple test
 assert.strictEqual(add(2, 3), 5, "2 + 3 should be 5");
 assert.strictEqual(
-  fibonacci(45),
-  1134903170,
-  "The 45th Fibonacci number should be 1134903170",
+  fibonacci(50),
+  12586269025,
+  "Fibonacci of 50 should be 12586269025",
 );
 
 console.log("All tests passed!");
