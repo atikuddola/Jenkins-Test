@@ -1,1 +1,1 @@
-# Jenkins-Test
+This is a simple Node.js application that creates an HTTP server and responds with "Hello, World!" to any incoming requests. Basically this is to see jenkins pipeline in action and ci cd process in real time with docker.
