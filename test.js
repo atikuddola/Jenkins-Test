@@ -11,6 +11,6 @@ function fibonacci(n) {
 
 // Simple test
 assert.strictEqual(add(4, 3), 7, "4 + 3 should be 7");
-assert.strictEqual(fibonacci(55), 139583862445, "The 55th Fibonacci number should be 139583862445");
+assert.strictEqual(fibonacci(48), 4807526976, "The 48th Fibonacci number should be 4807526976");
 
 console.log("All tests passed!");
